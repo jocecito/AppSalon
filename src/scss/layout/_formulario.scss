@@ -1,0 +1,29 @@
+.formulario {
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    label {
+        flex: 0 0 10rem; // factor de crecimiento 0
+        color: $blanco;
+    }
+    input {
+        flex: 1;
+        border-radius: 1rem;
+        padding: $separacion/4;
+    }
+}
+
+.alerta {
+    padding: $separacion/2;
+    text-align: center;
+    color: $blanco;
+    width: 100%;
+    display: block;
+    &.error {
+        background-color: $rojo;
+    }
+}

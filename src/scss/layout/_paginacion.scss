@@ -1,0 +1,23 @@
+.paginacion {
+    margin-top: $separacion/2;
+    display: flex;
+    justify-content: space-between;
+    button {
+        background-color: $azul;
+        padding: .5rem 1rem;
+        display: block;
+        text-align: center;
+        border: none;
+        color: $blanco;
+        font-weight: $bold;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border-radius: 1.5rem;
+        &.ocultar {
+            visibility: hidden;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
