@@ -1,7 +1,8 @@
 <?php 
 
-$db = mysqli_connect('localhost', 'root', '', 'appsalon');
+$db = mysqli_connect('186.122.181.144', 'root', '', 'appsalon');
 
+// Mi IP publica es 186.122.181.144
 // if(!$db) {
 //     echo "Error en la conexión";
 // } else {
