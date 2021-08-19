@@ -1,6 +1,6 @@
 <?php 
 
-$db = mysqli_connect('192.168.100.3', 'root', 'root', 'appsalon');
+$db = mysqli_connect('192.168.100.3', 'root', '', 'appsalon');
 
 // Mi IP 192.168.100.3
 // if(!$db) {
